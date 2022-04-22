@@ -6645,7 +6645,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
       "moq >= 4.16.1",
@@ -6686,9 +6685,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj": {
-              "projectPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj"
-            },
             "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
               "projectPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj"
             }
@@ -6748,16 +6744,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Projet 'D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
-      "libraryId": "D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

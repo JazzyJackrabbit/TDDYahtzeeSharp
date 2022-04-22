@@ -32,9 +32,6 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj": {
-                "projectPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj"
-              },
               "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
                 "projectPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj"
               }

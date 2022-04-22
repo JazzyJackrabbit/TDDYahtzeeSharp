@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "pju3AzwwKmkK3pJG/Mhp3ZLkVCyZO8eA1Kcb8K3o6gx96KgIJUYdkeyygDgC+pUW8lL6iomaMShnBvT2n3jMKg==",
-  "success": false,
+  "dgSpecHash": "5wVFb9gx4nvaFupiYHR/p9/5sL5b5HgZkiv177QIU43nkhy3gMJgb/jGjfb0CJKxAXYrFP2NlUAa0lNiGpQNlg==",
+  "success": true,
   "projectFilePath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexandre\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
@@ -112,15 +112,5 @@
     "C:\\Users\\Alexandre\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\Alexandre\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Projet 'D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj' introuvable. Vérifiez que la référence de projet est valide et que le fichier projet existe.",
-      "libraryId": "D:\\Dev\\GITHUB\\YahtzeeSharp\\api\\api.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

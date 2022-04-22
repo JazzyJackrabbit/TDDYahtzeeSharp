@@ -14,6 +14,7 @@ namespace api.test
 		
 		public YahtzeeControllerTest()
 		{
+
 		}
 
 		[Fact]
@@ -30,11 +31,45 @@ namespace api.test
 		}
 
 		[Fact]
-		public void ShouldReturnNotCharged()
+		public void NewPlayerShouldReturnNewScore()
 		{
 			// arrange
+			Player player = new Player();
+
 			// act
+			Score score = player.getScore();
+
 			// assert
+			Assert.NotNull(score);
+
 		}
+
+		[Fact]
+		public void NewPlayerShouldReturnScoreZero()
+        {
+			// arrange
+			Player player = new Player();
+
+			// act
+			Score score = player.getScore();
+			double value = score.score;
+
+			// assert
+			Assert.Equal(0, value);
+		}
+
+		[Fact]
+		public void ScoresShouldBeValid()
+		{
+			// arrange
+			
+
+			// act
+
+			// assert
+
+			// todo
+		}
+
 	}
 }

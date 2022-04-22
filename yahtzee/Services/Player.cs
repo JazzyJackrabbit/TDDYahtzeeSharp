@@ -13,5 +13,10 @@ namespace yahtzeeapi.Services
         {
             throw new NotImplementedException();
         }
+
+        public Score getScore()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -7,6 +7,6 @@ namespace yahtzeeapi.Services
 {
     public class Score
     {
-        public int score { get; set; }
+        public double score { get; set; }
     }
 }
