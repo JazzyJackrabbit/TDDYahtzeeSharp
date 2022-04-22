@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = yahtzeeapi.test
+build_property.ProjectDir = D:\Dev\GITHUB\YahtzeeSharp\yahtzee.test\
