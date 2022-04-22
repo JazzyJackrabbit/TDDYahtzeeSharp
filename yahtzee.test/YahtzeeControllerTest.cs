@@ -4,6 +4,7 @@ using api.Controllers;
 using Moq;
 using Services;
 using Xunit;
+using yahtzeeapi.Services;
 
 namespace api.test
 {
@@ -13,19 +14,19 @@ namespace api.test
 		
 		public YahtzeeControllerTest()
 		{
-			// arrange
-			Mock PlayerMock = new Mock<Player>();
-			Mock DiceMock = new Mock<Dice>();
-			Mock ScoreMock = new Mock<Score>();
-			
 		}
 
 		[Fact]
-		public void ShouldReturnCharged()
+		public void PlayerLaunchDiceShouldReturnNewDice()
 		{
 			// arrange
+			Player player = new Player();
+
 			// act
+			Dice dice = player.launchDice();
+
 			// assert
+			Assert.NotNull(dice);
 		}
 
 		[Fact]
