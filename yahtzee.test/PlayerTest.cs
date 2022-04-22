@@ -1,21 +1,13 @@
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using api.Controllers;
-using Moq;
-using Services;
+using System.Text;
 using Xunit;
 using yahtzeeapi.Services;
 
-namespace api.test
+namespace yahtzeeapi.test
 {
-	public class YahtzeeControllerTest
-	{
-		private YahtzeeController controller;
-		
-		public YahtzeeControllerTest()
-		{
-
-		}
+    public class PlayerTest
+    {
 
 		[Fact]
 		public void PlayerLaunchDiceShouldReturnNewDice()
@@ -46,7 +38,7 @@ namespace api.test
 
 		[Fact]
 		public void NewPlayerShouldReturnScoreZero()
-        {
+		{
 			// arrange
 			Player player = new Player();
 
@@ -56,19 +48,6 @@ namespace api.test
 
 			// assert
 			Assert.Equal(0, value);
-		}
-
-		[Fact]
-		public void ScoresShouldBeValid()
-		{
-			// arrange
-			
-
-			// act
-
-			// assert
-
-			// todo
 		}
 
 	}
