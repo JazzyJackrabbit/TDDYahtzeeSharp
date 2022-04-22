@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\api\api.csproj" />
+    <ProjectReference Include="..\yahtzee\yahtzeeapi.csproj" />
   </ItemGroup>
 
 </Project>
