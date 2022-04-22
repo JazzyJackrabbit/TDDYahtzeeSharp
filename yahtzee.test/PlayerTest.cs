@@ -12,13 +12,8 @@ namespace yahtzeeapi.test
 		[Fact]
 		public void PlayerLaunchDiceShouldReturnNewDice()
 		{
-			// arrange
 			Player player = new Player();
-
-			// act
 			Dice dice = player.launchDice();
-
-			// assert
 			Assert.NotNull(dice);
 		}
 
@@ -27,11 +22,7 @@ namespace yahtzeeapi.test
 		{
 			// arrange
 			Player player = new Player();
-
-			// act
 			Score score = player.getScore();
-
-			// assert
 			Assert.NotNull(score);
 
 		}
@@ -39,14 +30,9 @@ namespace yahtzeeapi.test
 		[Fact]
 		public void NewPlayerShouldReturnScoreZero()
 		{
-			// arrange
 			Player player = new Player();
-
-			// act
 			Score score = player.getScore();
 			double value = score.score;
-
-			// assert
 			Assert.Equal(0, value);
 		}
 

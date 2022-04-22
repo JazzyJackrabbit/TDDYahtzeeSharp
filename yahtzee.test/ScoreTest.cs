@@ -11,14 +11,18 @@ namespace yahtzeeapi.test
 		[Fact]
 		public void ScoresShouldHave5Dices()
 		{
-			// arrange
 			Player player = new Player();
-
-			// act
 			Score score = player.getScore();
 			List<Dice> dices = score.getDices();
+			Assert.Equal(5, dices.Count);
+		}
 
-			// assert
+		[Fact]
+		public void ScoreShouldReturn()
+		{
+			Player player = new Player();
+			Score score = player.getScore();
+			List<Dice> dices = score.getDices();
 			Assert.Equal(5, dices.Count);
 		}
 	}
