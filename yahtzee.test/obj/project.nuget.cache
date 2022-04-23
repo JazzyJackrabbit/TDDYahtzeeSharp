@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Whtqj3vV2C5tHFYmuO+l0t5JSmMj1Cn5ZSO53SQt+4xvyQnZ0LsJuO3jaBbNoWXta8UJ0Y819wcHtV4g44HNkg==",
+  "dgSpecHash": "5eNKkfBHqUtnTTvLyyP5BHPTFj0Hy9n7keZm7LBkRU8VBMwDzw85U9OM6iIKUwu2FovjuiQHxe+DjfTVzFu/xA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
+  "projectFilePath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ximen\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\ximen\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",

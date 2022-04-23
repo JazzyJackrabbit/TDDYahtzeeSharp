@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {}
+    "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
+    "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
+        "projectUniqueName": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
         "projectName": "yahtzeeapi",
-        "projectPath": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
+        "projectPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
         "packagesPath": "C:\\Users\\ximen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\obj\\",
+        "outputPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

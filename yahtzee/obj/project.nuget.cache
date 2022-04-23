@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u31tPISR4G9QGdBsHitskynTUvzGDVvnBLdBlbOiauj+VlatV/C8vvWukGMmFKWB/rsZu89RaN22BrUpxaUV1A==",
+  "dgSpecHash": "UYQ6NmLwKSNHa3HbALOA+NJpn/ukkXRSBlSnQ1aFrlBgwBbDAxeXQUGbnAfcnt7XWCufYCUlcpyBF4sXL2t4ag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
+  "projectFilePath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ximen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ximen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

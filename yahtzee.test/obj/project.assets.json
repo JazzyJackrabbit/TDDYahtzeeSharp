@@ -6660,11 +6660,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
+      "projectUniqueName": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
       "projectName": "yahtzeeapi.test",
-      "projectPath": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
+      "projectPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
       "packagesPath": "C:\\Users\\ximen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee.test\\obj\\",
+      "outputPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6683,8 +6683,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
-              "projectPath": "C:\\Users\\ximen\\source\\repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj"
+            "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
+              "projectPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj"
             }
           }
         }
