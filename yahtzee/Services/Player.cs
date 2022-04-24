@@ -8,15 +8,26 @@ namespace yahtzeeapi.Services
     public class Player
     {
         public string pseudo { get; set; }
+        public Score score { get; set; }
 
-        public Dice launchDice()
+        public Player(string _pseudo)
         {
-            throw new NotImplementedException();
+            score = new Score();
+            pseudo = _pseudo;
+        }
+
+        public Dices launchDices()
+        {
+            Dices dices = new Dices();
+            dices.Launch();
+            
+            score.HandleDicesForScore(dices);
+            return dices;
         }
 
         public Score getScore()
         {
-            throw new NotImplementedException();
+            return score;
         }
     }
 }

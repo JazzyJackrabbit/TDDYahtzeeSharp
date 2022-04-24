@@ -111,3 +111,5 @@ D:\Dev\GITHUB\YahtzeeSharp\yahtzee.test\obj\Debug\netcoreapp3.1\yahtzeeapi.test.
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee.test\obj\Debug\netcoreapp3.1\yahtzeeapi.test.dll
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee.test\obj\Debug\netcoreapp3.1\yahtzeeapi.test.pdb
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee.test\obj\Debug\netcoreapp3.1\yahtzeeapi.test.genruntimeconfig.cache
+D:\Dev\GITHUB\YahtzeeSharp\yahtzee.test\bin\Debug\netcoreapp3.1\NSubstitute.dll
+D:\Dev\GITHUB\YahtzeeSharp\yahtzee.test\bin\Debug\netcoreapp3.1\nunit.framework.dll
