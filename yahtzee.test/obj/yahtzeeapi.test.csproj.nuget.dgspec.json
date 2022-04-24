@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj": {}
+    "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj": {
+    "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
+        "projectUniqueName": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
         "projectName": "yahtzeeapi.test",
-        "projectPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
-        "packagesPath": "C:\\Users\\ximen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee.test\\obj\\",
+        "projectPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee.test\\yahtzeeapi.test.csproj",
+        "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee.test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ximen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,9 +30,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
-                "projectPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj"
+              "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
+                "projectPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj"
               }
             }
           }
@@ -44,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -89,31 +92,29 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
+    "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
+        "projectUniqueName": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
         "projectName": "yahtzeeapi",
-        "projectPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
-        "packagesPath": "C:\\Users\\ximen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ximen\\Source\\Repos\\TDDYahtzeeSharp\\yahtzee\\obj\\",
+        "projectPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\yahtzeeapi.csproj",
+        "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\GITHUB\\YahtzeeSharp\\yahtzee\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ximen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,6 +126,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -136,6 +138,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -152,6 +155,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -160,7 +169,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
