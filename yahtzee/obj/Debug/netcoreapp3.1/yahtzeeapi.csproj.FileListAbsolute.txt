@@ -19,7 +19,6 @@ D:\Dev\GITHUB\YahtzeeSharp\yahtzee\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCor
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee\obj\Debug\netcoreapp3.1\staticwebassets\yahtzeeapi.StaticWebAssets.Manifest.cache
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee\obj\Debug\netcoreapp3.1\yahtzeeapi.RazorTargetAssemblyInfo.cache
-D:\Dev\GITHUB\YahtzeeSharp\yahtzee\obj\Debug\netcoreapp3.1\yahtzeeapi.csproj.CopyComplete
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee\obj\Debug\netcoreapp3.1\yahtzeeapi.dll
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee\obj\Debug\netcoreapp3.1\yahtzeeapi.pdb
 D:\Dev\GITHUB\YahtzeeSharp\yahtzee\obj\Debug\netcoreapp3.1\yahtzeeapi.genruntimeconfig.cache

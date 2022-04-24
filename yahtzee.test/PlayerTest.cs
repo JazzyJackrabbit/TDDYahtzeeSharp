@@ -10,29 +10,27 @@ namespace yahtzeeapi.test
     {
 
 		[Fact]
-		public void PlayerLaunchDiceShouldReturnNewDice()
+		public void PlayerLaunchDicesShouldReturnNewDices()
 		{
-			Player player = new Player();
-			Dice dice = player.launchDice();
-			Assert.NotNull(dice);
+			Player player = new Player("toto");
+			Dices dices = player.launchDices();
+			Assert.NotNull(dices);
 		}
 
 		[Fact]
 		public void NewPlayerShouldReturnNewScore()
 		{
-			// arrange
-			Player player = new Player();
+			Player player = new Player("toto");
 			Score score = player.getScore();
 			Assert.NotNull(score);
-
 		}
 
 		[Fact]
 		public void NewPlayerShouldReturnScoreZero()
 		{
-			Player player = new Player();
+			Player player = new Player("toto");
 			Score score = player.getScore();
-			double value = score.score;
+			double value = score.GlobalScore;
 			Assert.Equal(0, value);
 		}
 
